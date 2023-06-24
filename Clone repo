@@ -2,3 +2,14 @@
 git clone https://github.com/greystone-labs/qa-engineer-test
 cd qa-engineer-test
 
+# remove remote
+git remote rm origin
+
+# add your repo
+git remote add <Greystone> <https://github.com/jhumphries5/Greystone.git>
+
+# verify
+git remote -v
+
+# push to new repo
+git push -u <Greystone> master
